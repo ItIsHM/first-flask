@@ -1,0 +1,13 @@
+{
+  "name": "flask-app",
+  "version": "1.0.0",
+  "description": "A Flask app with Pytube",
+  "main": "app.py",
+  "scripts": {
+    "start": "python app.py"
+  },
+  "dependencies": {
+    "flask": "^2.0.1",
+    "pytube": "^11.0.0"
+  }
+}
