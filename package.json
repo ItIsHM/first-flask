@@ -4,6 +4,7 @@
   "description": "A Flask app with Pytube",
   "main": "app.py",
   "scripts": {
+    "build": "npm install"
     "start": "python app.py"
   },
   "dependencies": {
