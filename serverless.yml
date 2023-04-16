@@ -1,0 +1,12 @@
+service: flask-app
+provider:
+  name: vercel
+plugins:
+  - serverless-python-requirements
+functions:
+  app:
+    handler: app.app
+    memory: 1024
+    runtime: vercel.python3
+    events:
+      - http: '/'
